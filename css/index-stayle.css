@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #24353F;
+}
+.rForm{
+    background-color: #24353F;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.rForm h1{
+    color: #17a2b8;
+}
+input{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid gray;
+    color: white;
+    
+}
+.rForm p{
+    color: antiquewhite;
+}
+
+.rForm a:hover{
+    text-decoration: underline;
+}
+.welcome{
+    background-color: #24353F;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+

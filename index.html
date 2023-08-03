@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login
+
+    </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index-stayle.css">
+
+</head>
+<body>
+    <div class="container d-flex justify-content-center my-5">
+        <div class="rForm w-75 p-5 text-center border">
+            <h1>Smart Login System</h1>
+            <input type="text" name="" id="Name" placeholder="ENTER YOUR NAME.." class="p-2 my-2">
+            <p class="d-none">invallid Name</p>
+            <input type="text" name="" id="Email" placeholder="ENTER YOUR Email.." class="p-2 my-2">
+            <p class="d-none">invallid Email</p>
+            <input type="text" name="" id="Password" placeholder="ENTER YOUR Password.." class="p-2 my-2">
+            <p class="d-none">invallid Password</p>
+            <div class="Rege">
+                <button class="btn btn-outline-info w-100 p-2 my-2" onclick="AddClint()">Sign up</button>
+                <p>You have an account? <a id="Ranchor" href="#">Sign in</a></p>
+            </div>
+            <div id="Login" class="d-none">
+                <a id="convert" target="_blank"><button class="btn btn-outline-info w-100 p-2 my-2" onclick="LoginClints()">Log in</button></a>
+                <p>Don’t have an account? <a id="LoginAnchor" href="#">sign up</a></p>
+            </div>
+            
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="home.html"></script>
+    <script src="js/index-action.js"></script>
+</body>
+</html>
