@@ -137,7 +137,7 @@ function LoginClints()
     {
         if(locSge[i].email==CEmail.value && locSge[i].password==CPass.value){
             temp=locSge[i].name
-            ConvAnchor.setAttribute('href','file:///C:/Users/ibrahim%20ismail/Desktop/login%20Assigment/home.html')
+            ConvAnchor.setAttribute('href','home.html')
             
             localStorage.setItem('temp',temp)
         
