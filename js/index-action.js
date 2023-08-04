@@ -25,7 +25,6 @@ var clintsInfo=[]
          }
          clintsInfo.push(Clint)
          localStorage.setItem('clints', JSON.stringify(clintsInfo))
-         console.log(clintsInfo);
          swal({
             title: "Regestrition Done",
             icon: "success",
@@ -133,10 +132,10 @@ LoginAnchor.addEventListener('click',function(){
 })
 function LoginClints()
 {
-    for(var i=0;i<locSge.length;i++)
+    for(var i=0;i<JSON.parse(localStorage.getItem('clints')).length;i++)
     {
-        if(locSge[i].email==CEmail.value && locSge[i].password==CPass.value){
-            temp=locSge[i].name
+        if(JSON.parse(localStorage.getItem('clints'))[i].email==CEmail.value && JSON.parse(localStorage.getItem('clints'))[i].password==CPass.value){
+            temp=JSON.parse(localStorage.getItem('clints'))[i].name
             ConvAnchor.setAttribute('href','home.html')
             
             localStorage.setItem('temp',temp)
