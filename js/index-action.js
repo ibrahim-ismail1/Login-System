@@ -55,7 +55,7 @@ var clintsInfo=[]
  //regex name accepet any world character in the start or the end
  //at least 3 characters
  // dosent accepet spaces in the start or the end  
- var NameRegex=/^\w[\w\s]{2,}\S$/
+ var NameRegex=/^\w[\w\s]{2,}\S$/i
  //email regex accepet in form capital or small letters in the end
  //then at least 2 world characters 
  //then must @
